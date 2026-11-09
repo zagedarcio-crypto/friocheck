@@ -1,0 +1,7 @@
+/* Ocultar a marca de água do Lovable */
+a[href*="lovable.dev"], div:has(> a[href*="lovable.dev"]) {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
