@@ -1,5 +1,8 @@
-/* Ocultar a marca de água do Lovable */
-a[href*="lovable.dev"], div:has(> a[href*="lovable.dev"]) {
+/* Ocultar totalmente a marca de água do Lovable */
+a[href*="lovable.dev"], 
+div:has(> a[href*="lovable.dev"]),
+footer a[href*="lovable"],
+.fixed.bottom-4.right-4 {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
