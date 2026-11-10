@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FrioCheck</title>
     <style>
-      a[href*="lovable.dev"], div:has(> a[href*="lovable.dev"]), footer a[href*="lovable.dev"], .fixed.bottom-4.right-4 { display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important; }
+      /* Oculta a marca de água do Lovable */
+      a[href*="lovable.dev"], div:has(> a[href*="lovable.dev"]), footer a[href*="lovable.dev"], .fixed.bottom-4.right-4 {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
     </style>
   </head>
   <body>
+    <div id="root"></div>
+    <script src="/src/main.tsx" type="module"></script>
   </body>
 </html>
